@@ -5,5 +5,5 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 include_directories(/home/valeriyasin/Programms/loki-0.1.7/include/loki)
 
-set(SOURCE_FILES FibonacchiHierarchy.cpp)
+set(SOURCE_FILES FibonacchiHierarchy.cpp TypeManip.h)
 add_executable(typelists ${SOURCE_FILES})
