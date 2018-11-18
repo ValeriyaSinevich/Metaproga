@@ -1,7 +1,5 @@
 #include <iostream>
-#include <Typelist.h>
-#include <TypelistMacros.h>
-#include <vector>
+#include "TypeManip"
 
 struct EmptyType {};
 
